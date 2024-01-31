@@ -27,6 +27,13 @@ Install MLpack successfully and dont forget to install dpendencies: This line wi
 
 If you are using gcc you need to do this to complie the code successfully: g++ kmeans.cpp -o Foo -lmlpack -larmadillo -lboost_serialization -lboost_program_options
 
+# Required libraries
+Required libraries: mlpack, armadillo, gomp, pthread
+Required open-source software: taskflow, nlohmann (to be included in the oss directory in the project)
+
+# Headers
+Required header files for the project
+
 # Code 1
 A simple program to find the nearest neighbour of each point in a dataset using the L1 
 metric, and then print the index of the neighbour and the distance of it to stdout. (Source – MLPack 
