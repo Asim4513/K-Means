@@ -18,12 +18,12 @@ In other words, the K-means algorithm identifies k number of centroids, and then
 The ‘means’ in the K-means refers to averaging of the data; that is, finding the centroid.
 
 # Tools
-C++
-MLPack: https://github.com/mlpack/mlpack
+C++,
+MLPack: https://github.com/mlpack/mlpack ,
 Ubuntu
 
 # Compile
-Install MLpack successfully and dont forget to install dpendencies: This line will do the trick sudo apt-get install libboost-math-dev libboost-program-options-dev libboost-test-dev libboost-serialization-dev libarmadillo-dev binutils-dev
+Install MLpack successfully and dont forget to install dpendencies: This line will do the trick: sudo apt-get install libboost-math-dev libboost-program-options-dev libboost-test-dev libboost-serialization-dev libarmadillo-dev binutils-dev
 
 If you are using gcc you need to do this to complie the code successfully: g++ kmeans.cpp -o Foo -lmlpack -larmadillo -lboost_serialization -lboost_program_options
 
