@@ -27,4 +27,36 @@ Install MLpack successfully and dont forget to install dpendencies: This line wi
 
 If you are using gcc you need to do this to complie the code successfully: g++ kmeans.cpp -o Foo -lmlpack -larmadillo -lboost_serialization -lboost_program_options
 
+# Code 1
+A simple program to find the nearest neighbour of each point in a dataset using the L1 
+metric, and then print the index of the neighbour and the distance of it to stdout. (Source – MLPack 
+Documentation. URL: https://mlpack.org)
+
+# Code 2
+To find the 10 nearest neighbours on a query and reference dataset. (Source – MLPack 
+Documentation. URL: https://mlpack.org)
+
+# Code 3
+To find the cluster assignments and centroids of a dataset using kmeans. (Source – MLPack 
+Documentation. URL: https://mlpack.org)
+
+# Code 4
+A simple example to run KMeans clustering. (Source – MLPack Documentation. URL: 
+https://mlpack.org)
+
+# Code 5
+Test program combining the kNN and KMeans algorithms, and then displaying the cluster 
+assigned to the query data based on a majority rule.
+
+# Code 6
+The function loadData()
+
+# Code 7
+The function getKMeans()
+
+# Code 8
+The function getKNN()
+
+# Code 9
+The main program
 
