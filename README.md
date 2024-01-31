@@ -60,3 +60,6 @@ The function getKNN()
 # Code 9
 The main program
 
+# Code 10
+The query loading function.
+
